@@ -7,5 +7,5 @@ User Password Generator using Prompt Boxes
 - Include numbers
 - Include special characters
 
-![Image of FullStackable](.assets/images/passwordgeneratorscreenshot.png)
+![Image of FullStackable](/passwordgeneratorscreenshot.png)
 
