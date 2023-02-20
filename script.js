@@ -3,10 +3,10 @@ var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
 // indicating all of the possible characters the user can include in password 
-var uppercaseArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-var lowercaseArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o",  "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-var numbArray = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
-var characterArray = ["@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+"];
+var possibleUppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+var possibleLowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o",  "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+var possibleNumbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+var possibleSpecialChar = ["@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+"];
 
 // setting variables to hold possible characters indicated by user
 var userAnswers = [];
@@ -21,22 +21,22 @@ var userCharset = [];
 
 // setting conditions for the user generated password
 if (numbersPrompt){
-  userAnswers = userAnswers.concat(numbArray);
+  userAnswers = userAnswers.concat(possibleNumbers);
   
 }
 
 if (uppercaseLetters){
-  userAnswers = userAnswers.concat(uppercaseArray);
+  userAnswers = userAnswers.concat(possibleUppercase);
 
 }
 
 if (lowercaseLetters){
-  userAnswers = userAnswers.concat(lowercaseArray);
+  userAnswers = userAnswers.concat(possibleLowercase);
 
 }
 
 if (specialCharacters){
-  userAnswers = userAnswers.concat(characterArray);
+  userAnswers = userAnswers.concat(possibleSpecialChar);
 }
 console.log(userAnswers)
 
