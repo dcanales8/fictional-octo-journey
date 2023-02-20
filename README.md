@@ -10,4 +10,4 @@ User Password Generator using Prompt Boxes
 ![Image of FullStackable](/passwordgeneratorscreenshot.png)
 
 
-Password Generator (https://dcanales8.github.io/fictional-octo-journey/)
+Password Generator [Password Generator](https://dcanales8.github.io/fictional-octo-journey/)
