@@ -7,7 +7,7 @@ User Password Generator using Prompt Boxes
 - Include numbers
 - Include special characters
 
-![Image of FullStackable](/passwordgeneratorscreenshot.png)
+![image of screenshot to password generator](/passwordgeneratorscreenshot.png)
 
 
-Password Generator [Password Generator](https://dcanales8.github.io/fictional-octo-journey/)
+To create a secure password, [click here!](https://dcanales8.github.io/fictional-octo-journey/)
