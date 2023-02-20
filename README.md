@@ -1,6 +1,7 @@
 User Password Generator using Prompt Boxes 
 ---
-# User can generate a random password by indicating parameters from prompt box responses. User can indicate the following:
+# Secure Password Generator
+Users can generate a random password by indicating parameters from prompt box responses. User can indicate the following:
 - Password length 
 - Include uppercase letters
 - Include lowercase letters
